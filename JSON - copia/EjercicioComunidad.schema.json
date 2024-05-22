@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties":{
+        "Comunidad": {
+            "type": "array",
+                "items": {
+                    "type": "object",
+                        "properties": {
+                            "Código de vecino": {
+                                "type": "string"
+                            },
+                            "Nombre": {
+                                "type": "string"
+                            },
+                            "Apellidos": {
+                                "type":"string"
+                            },
+                            "Portal": {
+                            "type":"string"
+                            },
+                                "Piso": {
+                            "type":"string"
+                            },
+                            "Código de cuenta corriente": {
+                                "type": "integer"
+                            },
+                            "Cargo": {
+                                    "type": "string",
+                                "enum": ["presidente","vicepresidente","secretario","voca"]
+                            }
+                        }
+                    }
+                }
+            }
+        }

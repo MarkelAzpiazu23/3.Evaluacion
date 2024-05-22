@@ -1,0 +1,14 @@
+{
+    "$schema": "./Empleado.schema.json",
+    "empleado": [
+        {
+            "Nombre":"Jose",
+            "Apellido":"García",
+            "Edad":34,
+            "Departamento":"calidad",
+            "Usuario":"Madrid",
+            "Contraseña":"azAZ34",
+            "Matricula":"6789aZh" 
+        }
+    ]
+}

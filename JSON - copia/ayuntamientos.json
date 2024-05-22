@@ -1,0 +1,28 @@
+{
+    "$schema": "./ayuntamientos.schema.json",
+    "ayuntamientos": [
+        {
+            "nombre": "Urnieta",
+            "identificador": 12345,
+            "codigoPostal": "08021",
+            "direccion":{
+                "calle":"Idiazabal",
+                "numero":6,
+                "ciudad":"Urnieta",
+                "provincia":"Gipuzkoa"
+                },
+            "telefono": "932109089",
+            "email": "info@gmail.com",
+            "alcalde":{
+                "nombre":"Hamus",
+                "PrimerApellido": "Corck",
+                "SegundoApellido":"Buru"
+                },
+            "informacionAdicional":{
+                "NumeroHabitantes":6000,
+                "FechaFundacion": "1990-01-01",
+                "Presupuesto":10.000
+                }
+        }
+    ]
+}

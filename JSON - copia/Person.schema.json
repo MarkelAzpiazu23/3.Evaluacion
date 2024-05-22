@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties": {
+        "persona": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "number"
+                },
+                "nombre": {
+                    "type": "string"
+                },
+                "edad": {
+                    "type": "number"
+                },
+                "hobbies": {
+                    "type": "object",
+                    "properties": {
+                        "interior": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                        "exterior": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                        },
+                        "hobby2": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

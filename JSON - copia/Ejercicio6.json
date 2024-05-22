@@ -1,0 +1,32 @@
+{
+    "Receta":[
+    {
+        "nombre":"Tarta de manzana",
+        "ingredientes":[
+            {"nombre":"Manzana",
+            "cantidad":"4"
+            },
+            {"nombre":"Azúcar",
+            "cantidad":"150"
+            },
+            {"nombre":"Mantequilla",
+            "cantidad":"100"
+            },
+            {"nombre":"Mantequilla",
+            "cantidad":"100"
+            },
+            {"nombre":"harina",
+            "cantidad":"200"
+            }
+        ]
+    },
+        {
+            "pasos":["pelar y cortar",
+                    "mezclar...",
+                    "Preparar la mesa...",
+                    "Forrar",
+                    "Hornear a ..."
+                ]
+        }
+    ]
+ }

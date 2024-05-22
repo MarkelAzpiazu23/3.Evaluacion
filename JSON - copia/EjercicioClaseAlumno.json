@@ -1,0 +1,14 @@
+{
+    "$schema": "./EjercicioClaseAlumno.schema.json",
+    "alumno":{
+	"dni":"12345678A",
+	"nombre":"Juan García",
+	"direccion":{
+		"calle":"Avenida...",
+		"numero":6,
+		"ciudad":"Madrid",
+        "provincia":"Madrid"
+		},
+		"telefono":[944444444,611222222]
+		}
+	}

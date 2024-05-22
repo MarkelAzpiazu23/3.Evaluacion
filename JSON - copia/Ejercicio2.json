@@ -1,0 +1,17 @@
+{
+    "Tareas por hacer":[
+        {"Nombre":"Redactar un libro",
+        "descripcion":"Un boli",
+        "estado":true            
+        },
+        {"Nombre":"Cambiar las ruedas del bus",
+        "descripcion":"Asino no trabajo",
+        "estado":false            
+        },
+        {"Nombre":"Moverse de la cama",
+        "descripcion":"Es duro",
+        "estado":true           
+        }
+    
+    ]
+}

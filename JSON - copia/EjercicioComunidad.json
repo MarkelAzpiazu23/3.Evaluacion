@@ -1,0 +1,16 @@
+{
+    "$schema": "./EjercicioComunidad.schema.json",
+    "Comunidad":[
+    {
+        "Vecinos": {
+            "Código de vecino":"123",
+            "Nombre":"Nogales",
+            "Apellidos":"Arzaius",
+            "Portal":"B",
+            "Piso":"6",
+            "Código de cuenta corriente":645432546,
+            "Cargo":"presidente"
+        }
+    }
+    ]
+}

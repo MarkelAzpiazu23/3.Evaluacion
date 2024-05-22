@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties":{
+        "alumno": {
+            "type": "object",
+                "properties": {
+                    "dni": {
+                        "type": "string",
+                        "pattern": "^[0-9]{8}[A-Z]$"
+                    },
+                    "nombre": {
+                        "type": "string"
+                    },
+
+            "direccion": { 
+                "type": "object",
+                    "properties": {
+                            "calle": {
+                                "type": "string"
+                            },
+                            "numero": {
+                                "type":"integer",
+                                    "minimum":0,
+                                    "maximum":500
+                            },
+                            "ciudad": {
+                                "type":"string"
+                            },
+                            "provincia": {
+                                "type":"string"
+                            }
+                            },
+                            "required": ["calle", "numero", "ciudad", "provincia"]   
+                                },
+
+                    "telefono": {
+                        "type":"array",
+                            "minItems":0,
+                            "maxItems":5,
+                            "items": {
+                                "type":"number"
+                    }
+                }
+            },
+            "required": ["dni", "nombre", "direccion", "telefono"]
+        }
+    }
+}

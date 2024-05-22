@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties":{
+        "ayuntamientos": {
+            "type": "array",
+                "minItems": 1,
+                    "items": {
+                        "type": "object",
+                            "properties": {
+                                    "nombre": {
+                                        "type": "string",
+                                        "minLength": 3
+                                    },
+                                    "identificador": {
+                                        "type": "integer"
+                                    },
+                                    "codigoPostal": {
+                                        "type": "string",
+                                        "minLength":5,
+                                        "maxLength": 5,
+                                        "pattern": "^[0-9]{5}$"
+                                    },
+                                    "direccion": {
+                                        "type": "object",
+                                            "properties": {
+                                                "calle": {
+                                                    "type": "string"
+                                                },
+                                                "numero": {
+                                                    "type": "number"
+                                                },
+                                                "ciudad": {
+                                                    "type": "string"
+                                                },
+                                                "provincia": {
+                                                    "type": "string",
+                                                    "enum": ["Gipuzkoa", "Bilbao", "Araba", "Nafarroa"]
+                                                }
+                                            },
+                                            "required": ["calle", "numero", "ciudad", "provincia"]
+                                        },
+                                    "telefono": {
+                                        "type": "string",
+                                        "pattern": "^[0-9]{9}$",
+                                        "minLength":9,
+                                        "maxLength": 9
+                                    },
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email"
+                                    },
+                                    "alcalde": {
+                                        "type": "object",
+                                        "properties": {
+                                            "nombre": {
+                                                "type": "string"
+                                            },
+                                            "PrimerApellido": {
+                                                "type": "string"
+                                            },
+                                            "SegundoApellido": {
+                                                "type": "string"
+                                            }
+                                    },
+                                    "required": ["nombre", "PrimerApellido"]
+                                },
+                                    "informacionAdicional": {
+                                        "type": "object",
+                                        "properties": {
+                                            "NumeroHabitantes":{
+                                                "type": "number",
+                                                "minimun": 25
+                                        },
+                                        "FechaFundacion":{
+                                            "type":"string",
+                                            "format": "date"
+                                    },
+                                    "Presupuesto":{
+                                        "type":"number",
+                                        "minimum": 0.00
+                                    }
+                                    },
+                                    "required": ["NumeroHabitantes", "FechaFundacion", "Presupuesto"]
+                                }
+                            },
+                            "required": ["nombre", "identificador", "codigoPostal", "direccion", "telefono", "email", "alcalde", "informacionAdicional"]
+                }
+            }
+        }
+    }

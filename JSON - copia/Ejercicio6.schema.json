@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties": {
+        "Receta": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                        "properties": {
+                            "nombre": {"type": "string"},
+                            "ingredientes": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "nombre": {"type": "string"},
+                                        "cantidad": {"type": "string"}
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "object",
+                        "properties": {
+                            "pasos": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

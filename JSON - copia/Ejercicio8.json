@@ -1,0 +1,22 @@
+{
+    "Proyectos":[
+        {
+            "nombre":"Desarrollo de una aplicacion",
+            "descripcion":"...",
+            "fecha de inicio":"2020-01-01",
+            "fecha_de_finalizacion":"2021-01-01",
+            "tarear":[
+                {
+                    "nombre":"Diseño de aplicacion",
+                    "descripcion":"...",
+                    "completada":false
+                },
+                {
+                    "nombre":"Diseño ...",
+                    "descripcion":"...",
+                    "completada":true
+                }
+            ]
+        }
+    ]
+}

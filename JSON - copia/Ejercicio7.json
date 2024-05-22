@@ -1,0 +1,27 @@
+{
+    "Notas":[
+        {"estudiantes": [
+            {
+                "nombre":"Markel"
+               },
+               {"asignatura":["Lenguaje de Marcas","Programacion","Bases de Datos"],
+               "calificaciones":{
+                "Lenguaje de Marcas":6,
+                "Programacion":7,
+                "Bases de Datos":3
+               }
+            },
+            {
+                "nombre":"Aaron"
+               },
+               {"asignatura":["Ingles","FOL","Entornos de Desarrollo"],
+               "calificaciones":{
+                "Ingles":10,
+                "FOL":8,
+                "Entornos de Desarrollo":9
+               }
+               }
+        ]   
+        }
+    ]
+}

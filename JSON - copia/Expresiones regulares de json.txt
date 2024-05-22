@@ -1,0 +1,17 @@
+para poder que te comprenda varias palabras tendremos que usar [qQ]ue o [ab0123]5, (esto en regex101)
+para hacer que no admita ciertas palabras tendremos que usar [^p]0, (esto en regex101)
+para hacer que valga todo el alfabeto, o de un numero a otro tendremos que usar [a-z]0, (esto en regex101)
+para hacer que valga todo el alfabeto en mayusculas, o de un numero a otro tendremos que usar [a-zA-Z]0, con este podemos usar tanto letras en minusculas como en mayusculas(esto en regex101)
+si usamos [6-8]+, quiere decir que podemos usarlo mas de una vez, ya que va ha leer.
+y para que te siga leyendo aunque no haya ningun numero de los que hemos puesto seria [4-8]*
+para poner un maximo seria [4-8]{3}
+para poner un minimo y maximo de caracteres seria, [a-z]{3-6}
+
++ uno o más
+[] set de caracteres 
+^ signo de negación en un set
+? uno o cero
+cualquier carácter menos salto de líneas
+* cero o más
+\ escape
+

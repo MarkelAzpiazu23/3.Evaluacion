@@ -1,0 +1,25 @@
+{
+    "Blibioteca":[
+        {
+            "nombre":"Blibioteca de Urnieta",
+            "direccion":"Calle Arrantza 2",
+            "libros disponibkes":[
+                {
+                    "titulo":"El hombre de metal",
+                    "autor":"Myke Wasowsky",
+                    "Genero": ["Pensamientos","Gracioso"]
+                },
+                {
+                    "titulo":"SuperSonic",
+                    "autor":"Julen Salinas",
+                    "Genero": ["Tristeza","Miedo"]
+                },
+                {
+                    "titulo":"El hombre que no sabia silbar",
+                    "autor":"Sin Silbar",
+                    "Genero": ["Pena"]
+                }
+            ]
+        }
+    ]
+}

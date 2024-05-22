@@ -1,0 +1,17 @@
+{
+    "Materiales de vestimenta":[
+        {"Nombre":"Chanclas",
+        "precio":22.59,
+        "disponibilidad":true            
+        },
+        {"Nombre":"Camiseta de John Cena",
+        "precio":1000.00,
+        "disponibilidad":false           
+        },
+        {"Nombre":"Riñorena Gucci",
+        "precio":77.99,
+        "disponibilidad":false           
+        }
+    
+    ]
+}

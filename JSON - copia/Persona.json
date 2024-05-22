@@ -1,0 +1,12 @@
+{"$schema":"Person.schema.json",
+    "persona":
+    {
+        "id":33,
+        "nombre":"Fernando Alonso",
+        "edad":578,
+        "hobbies":{
+            "exterior":["viajar","cuello"],
+            "interior":["estilo","llantas gastadas"]
+        }
+    }
+}

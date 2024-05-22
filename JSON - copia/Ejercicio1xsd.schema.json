@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties": {
+        "coche": {
+            "type": "object",
+            "properties": {
+                "Codigo de coche": {
+                    "type": "string"
+                },
+                "Marca": {
+                    "type": "string"
+                },
+                "Modelo": {
+                    "type":"string"
+                },
+                "Matricula": {
+                    "type":"string"
+                },
+                "Potencia": {
+                    "type":"number"
+                },
+                "Plazas": {
+                    "type":"number"
+                },
+                "Puertas": {
+                    "type":"number"
+                },
+                "Fecha fabricacion": {
+                    "type":"string",
+                    "format": "date"
+                },
+                "Tipo": {
+                    "type": "string",
+                    "enum": ["km","ocasionally","gerencia","nuevo"]
+                        }
+                    },
+                    "required": ["Codigo de coche", "Marca", "Matricula", "Potencia", "Fecha fabricacion"]
+                }
+            }
+        }

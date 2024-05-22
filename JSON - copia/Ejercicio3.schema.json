@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties": {
+        "Materiales de vestimenta": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Nombre": {
+                        "type": "string"
+                    },
+                    "precio": {
+                        "type": "number"
+                    },
+                    "disponibilidad": {
+                        "type": "boolean"
+                    }
+
+                }
+            }
+        }
+    }
+}

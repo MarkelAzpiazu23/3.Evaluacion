@@ -1,0 +1,15 @@
+{
+    "$schema": "./Ejercicio1xsd.schema.json",
+    "coche":{
+        "Codigo de coche":"123456789",
+        "Marca":"Renault",
+        "Modelo":"Clio",
+        "Color":"Blanco",
+        "Matricula":"4091DRV",
+        "Potencia":100.5,
+        "Plazas":5,
+        "Puertas":4,
+        "Fecha fabricacion":"2014-03-09",
+        "Tipo":"nuevo"
+    }
+}

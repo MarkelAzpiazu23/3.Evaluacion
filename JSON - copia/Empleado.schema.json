@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Información sobre una persona",
+    "description": "Este JSON...",
+    "type": "object",
+    "properties":{
+        "empleado": {
+            "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "Nombre": {
+                            "type": "string",
+                            "maximumLength":20
+                        },
+                        "Apellido": {
+                            "type": "string",
+                            "maximumLength":30
+                        },
+                        "Edad": {
+                            "type": "number",
+                            "minimum": 18,
+                            "maximum": 67
+                        },
+                        "Departamento": {
+                            "type": "string",
+                            "enum": ["informática","logística","calidad"]
+                        },
+                        "Usuario": {
+                            "type": "string",
+                            "maximumLength":20
+                        },
+                        "Contraseña": {
+                            "type": "string",
+                            "pattern": "^[a-zA-Z0-9]+$"
+                        },
+                        "Matricula": {
+                            "type": "string",
+                            "pattern": "^[0-9]{4}[a-zA-Z]{3}$"
+                        }
+                    },
+                    "required": ["Nombre","Apellido","Edad","Departamento","Usuario","Contraseña"]
+                }
+            }
+        }
+    }
